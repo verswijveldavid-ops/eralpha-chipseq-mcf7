@@ -1,5 +1,7 @@
 # Estrogen receptor ChIP-seq in MCF-7 cells
 
+[![Validate project](https://github.com/verswijveldavid-ops/eralpha-chipseq-mcf7/actions/workflows/validate.yml/badge.svg)](https://github.com/verswijveldavid-ops/eralpha-chipseq-mcf7/actions/workflows/validate.yml)
+
 A complete ChIP-seq analysis of estrogen receptor alpha (ERα) occupancy after
 estradiol stimulation using public
 [GSE14664](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14664) data.
@@ -35,6 +37,16 @@ biological validation of the E2/ERα signal.
 The experiment has one library per condition and no matched input chromatin.
 The peak overlap is therefore a descriptive condition-specific comparison,
 not a replicate-based statistical differential-binding test.
+
+## What the project demonstrates
+
+- A documented FASTQ-to-peaks workflow using SRA Toolkit, FastQC, Bowtie2,
+  samtools, MACS3 and deepTools
+- Coordinate-aware peak processing on the matching hg18 reference build
+- Peak overlap, nearest-gene assignment and genomic annotation
+- Motif analysis with HOMER and Hallmark pathway enrichment
+- Reproducible data provenance, checksum verification and automated validation
+- Careful separation of descriptive results from replicate-based inference
 
 ## Reports
 
@@ -96,3 +108,7 @@ HOMER.
 - deepTools: <https://deeptools.readthedocs.io/>
 - MSigDB Hallmark collection: <https://www.gsea-msigdb.org/gsea/msigdb/collections.jsp>
 
+## License
+
+The analysis code is available under the [MIT License](LICENSE). Source data
+remain subject to the terms of their original providers.
