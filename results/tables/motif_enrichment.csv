@@ -1,0 +1,6 @@
+motif,p_value,reported_p,"−log10(p), capped"
+ERβ/ERE,1e-300,1e-1613,300.0
+ERE,1e-300,1e-1483,300.0
+COUP-TFII,1e-241,1e-241,241.0
+ERRα,1e-176,1e-176,176.0
+RXR,1e-115,1e-115,115.0

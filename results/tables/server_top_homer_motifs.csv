@@ -1,0 +1,12 @@
+rank,motif_family,matched_reference,minus_log10_p,source
+1,ER beta nuclear receptor,ERb IR3,1613,archived HOMER output
+2,Estrogen response element,ERE IR3,1483,archived HOMER output
+3,COUP-TFII nuclear receptor,NR2F2,497,archived HOMER output
+4,Thyroid hormone receptor beta,THRb,432,archived HOMER output
+5,EAR2 nuclear receptor,NR2F6,390,archived HOMER output
+6,COUP-TFII nuclear receptor,NR2F1,351,archived HOMER output
+7,Retinoic acid receptor alpha,RARa,321,archived HOMER output
+8,Estrogen-related receptor beta,ESRRB,299,archived HOMER output
+9,Estrogen-related receptor gamma,ESRRG,259,archived HOMER output
+10,Estrogen-related receptor alpha,ESRRA,228,archived HOMER output
+

@@ -1,0 +1,6 @@
+metric,value,unit,source
+MACS3 E2-enriched peaks,4448,peaks,archived server notebook
+mean fold enrichment,9.8,fold,archived server notebook
+maximum fold enrichment,32.2,fold,archived server notebook
+promoter-proximal fraction,20.0,percent,archived server notebook
+

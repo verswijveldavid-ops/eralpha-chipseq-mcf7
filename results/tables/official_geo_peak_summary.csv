@@ -1,0 +1,6 @@
+metric,value,unit
+E2 peaks,10205.0,peaks
+mock peaks,240.0,peaks
+E2 peaks overlapping any mock peak,257.0,peaks
+E2 peak median width,599.0,bp
+E2 peak mean width,595.8164625183733,bp

@@ -1,0 +1,4 @@
+sample,condition,total_mapped,mapq30,source
+ERalpha_mock,mock-treated ERalpha ChIP,3334448,1402479,archived server notebook
+ERalpha_E2,10 nM E2 1h ERalpha ChIP,12652745,8200983,archived server notebook
+
